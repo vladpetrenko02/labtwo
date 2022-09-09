@@ -1,0 +1,51 @@
+th{
+    border: solid 1px black;
+    width: 150px;
+    height: 50px;
+}
+td{
+    border: solid 1px black;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    color: #262B2A;
+}
+.row1{
+    background-color: #488f8f;
+}
+.row2{
+    background-color: #f5f548;
+}
+.row1:hover{
+    background-color: #f5f548;
+    cursor: pointer;
+}
+.row2:hover{
+    background-color: #488f8f;
+    cursor: pointer;
+}
+.square{
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: #f1b584;
+    border: solid 6px black;
+    border-radius: 20%;
+    border-style: double;
+}
+.two{
+    position: absolute;
+    left: 50px;
+    top: 220px;
+    background-color: #c99a99;
+    opacity: 70%;
+}
+.three{
+    transform: translate(200px,-135px);
+}
+.four{
+    background-color: #c99a99;
+    opacity: 70%;
+    transform: translate(250px,-220px);
+}
